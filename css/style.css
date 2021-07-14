@@ -232,6 +232,7 @@ section {
 
 
 @media (max-width: 480px) {
+    /* header  */
     header {
         height: 660px;
     }
@@ -260,6 +261,19 @@ section {
         margin-top: 25px;
         padding-left: 30px;
         width: 95%;
+     }
+
+     /* players  */
+     .players {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 47px;
+         
+     }
+     .player {
+        margin: 5px;
+        width: 85%;
+        justify-content: center;
      }
 
   }
