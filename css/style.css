@@ -1,6 +1,13 @@
 
+/* ****************************** *\
+        GOOGLE FONTS
+\ * ***************************** */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+
+/* ****************************** *\
+        CUSTOM DESIGN VARIBALES
+\ * ***************************** */
 :root {
     --pink-color: #E02C6D;
     --primary-color: orange;
