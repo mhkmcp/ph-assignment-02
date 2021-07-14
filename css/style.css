@@ -24,7 +24,7 @@ h1 {
     line-height: 80px;
 }
 h2 {
-
+    font-size: 48px;
 }
 h3 {
 
@@ -139,4 +139,36 @@ section {
 }
 .player__description {
     margin-top: -10px;
+}
+
+/* ****************************** *\
+        HIGHLIGHTS SECTION 
+\ * ***************************** */
+
+.highlights {
+    margin: var(--custom-box);
+    margin-top: 165px;
+    display: flex;
+}
+.highlight__left, .highlight__right {
+    width: var(--half-width);
+}
+.highlight__left {
+    display: flex;
+    flex-direction: column;
+}
+.hightlight__left--description {
+    margin-bottom: 24px;
+}
+
+.hightlight__left--link a {
+    margin-top: 24px !important;
+    color: #FFFFFF;
+    background-color: var(--pink-color);
+}
+.hightlight__right--image {
+
+}
+.hightlight__right--image img {
+    width: 90%;
 }
