@@ -7,6 +7,7 @@
     --white-text: #FFFFFF;
     --half-width: 50%;
     --custom-box: 40px 80px;
+    --small-box: 10px 20px;
 }
 
 /* ****************************** *\
@@ -58,6 +59,16 @@ header nav {
     padding: 0;
     display: flex;
     justify-content: space-between;
+}
+nav span {
+    display: none;
+}
+nav span a {
+    color: var(--white-text);
+}
+.fa-bars {
+    line-height: 24px;
+    color: var(--white-text);
 }
 .header__menu li {
     
@@ -215,5 +226,43 @@ section {
 }
 
 /* ****************************** *\
+<<<<<<< HEAD
         RESPONSIVENESS
 \ * ***************************** */
+=======
+        RESPONSIVENESS  
+\ * ***************************** */
+
+@media (max-width: 480px) {
+    header {
+        height: 660px;
+    }
+    header nav {
+        padding: var(--small-box);
+        padding-top: 30px;
+    }
+    .header__menu {
+        display: none;
+    }
+    nav span {
+        display: inline;
+    }
+    .header__profile  a {
+        padding: 5px 10px;
+        margin-right: 20px;
+    }
+    .header__bottom {
+        flex-direction: column;
+    }
+    .header__legend--head {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .header__image {
+        margin-top: 25px;
+        padding-left: 30px;
+        width: 95%;
+     }
+
+  }
+>>>>>>> responsive
