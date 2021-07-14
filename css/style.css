@@ -272,8 +272,14 @@ section {
      }
      .player {
         margin: 5px;
+        margin-bottom: 24px;
         width: 85%;
+        height: 500px;
         justify-content: center;
+     }
+     .player__name {
+        font-size: 28px;
+        margin: 16px 0 10px 0;
      }
 
   }
