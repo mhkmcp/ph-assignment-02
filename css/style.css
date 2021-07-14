@@ -20,7 +20,8 @@ body {
     box-sizing: border-box;
 }
 h1 {
-    font-size: 44px;
+    font-size: 64px;
+    line-height: 80px;
 }
 h2 {
 
@@ -89,6 +90,9 @@ header nav {
     color: #FFFFFF;
     background-color: var(--pink-color);
 }
+.header__legend--head {
+    margin-top: -10px;
+}
 
 .header__image {
     width: var(--half-width);
@@ -96,4 +100,43 @@ header nav {
 
 .header__image img {
     width: 90%;
+}
+
+/* ****************************** *\
+        PLAYERS SECTION 
+\ * ***************************** */
+section {
+    margin-top: 2px;
+}
+.players {
+    margin: var(--custom-box);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.player {
+    width: 330px;
+    height: 474px;
+    margin-top: 35px;
+    margin-right: 35px;
+    box-shadow: 2px 3px 3px 4px #ccc;
+    /* border: 2px solid seagreen; */
+}
+.player__detail {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.player__detail img {
+    width: 100%;
+    border-radius: 3px;
+}
+.player__name {
+    text-align: center;
+}
+.player__description {
+    margin-top: -10px;
 }
