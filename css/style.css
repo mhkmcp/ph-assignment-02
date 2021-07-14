@@ -282,4 +282,24 @@ section {
         margin: 16px 0 10px 0;
      }
 
+     /* highlights  */
+     .highlights {
+        margin: 15px;
+        margin-top: 30px;
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+     .highlight__left, .highlight__right {
+        width: 100%;
+     }
+     .hightlight__left--head {
+        font-size: 30px;
+     }
+     .hightlight__right--image {
+        margin-top: 30px;
+     }
+     .hightlight__right--image img {
+        width:100%;
+     }
+
   }
