@@ -314,6 +314,28 @@ footer {
         margin: 16px 0 10px 0;
      }
 
+     .top { 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+     }
+     .top__heading {
+         font-size: 28px;
+     }
+     .top__detail {
+        display: flex;
+        flex-direction: column;
+     }
+     .top_image, .top_description {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 90%;
+     }
+     .top__desc {
+        margin: 0 auto;
+        width: 100%;
+     }
+
      /* highlights  */
      .highlights {
         margin: 15px;
