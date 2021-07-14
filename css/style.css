@@ -157,6 +157,32 @@ section {
 }
 
 /* ****************************** *\
+        PLAYERS SECTION 
+\ * ***************************** */
+
+.top {
+    margin: var(--custom-box);
+    margin-top: 100px;
+}
+.top__heading {
+    font-size: 48px;
+}
+.top__detail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.top_image {
+    width: var(--half-width);
+}
+.top_image  img {
+    width: 80%;
+}
+.top_description {
+    width: var(--half-width);
+}
+
+/* ****************************** *\
         HIGHLIGHTS SECTION 
 \ * ***************************** */
 
